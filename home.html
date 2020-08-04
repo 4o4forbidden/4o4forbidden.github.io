@@ -1,0 +1,205 @@
+<!-- 
+/*
+  888888                                           
+    "88b                                           
+     888                                           
+     888  8888b.  888d888 888d888  8888b.  888d888 
+     888     "88b 888P"   888P"       "88b 888P"   
+     888 .d888888 888     888     .d888888 888     
+     88P 888  888 888     888     888  888 888     
+     888 "Y888888 888     888     "Y888888 888     
+   .d88P                                           
+ .d88P"                                            
+888P"                                              
+*/
+ -->
+
+<html>
+
+<head>
+  <title>Jarrar Tt'Cash</title>
+
+
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://bootswatch.com/4/materia/bootstrap.min.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa" rel="stylesheet">
+  <link rel="stylesheet" href="css/jarrar.css" type="text/css">
+</head>
+
+
+
+<body>
+
+  <div class="container">
+
+    <h1 class="text-center animated bounceInDown" style="animation-delay: .4s;">3000 Dt</h1>
+
+  <div class="inputs-container">
+    <input class="form-control inputVal animated bounceInLeft" style="animation-delay: 1.7s;" type="text" maxlength="1" id="input1" onkeyup="watchInput()">
+
+    <input class="form-control inputVal animated bounceInLeft" style="animation-delay: 1.8s;" type="text" maxlength="1" id="input2" onkeyup="watchInput()">
+
+    <input class="form-control inputVal animated bounceInLeft" style="animation-delay: 1.9s;" type="text" maxlength="1" id="input3" onkeyup="watchInput()">
+
+    <input class="form-control inputVal animated fadeInDown" style="animation-delay: 2.4s;animation-duration: .7s;" type="text" maxlength="1" id="input4" onkeyup="watchInput()">
+
+    <input class="form-control inputVal animated bounceInRight" style="animation-delay: 2.1s;" type="text" maxlength="1" id="input5" onkeyup="watchInput()">
+
+    <input class="form-control inputVal animated bounceInRight" style="animation-delay: 2.2s;" type="text" maxlength="1" id="input6" onkeyup="watchInput()">
+
+    <input class="form-control inputVal animated bounceInRight" style="animation-delay: 2.3s;" type="text" maxlength="1" id="input7" onkeyup="watchInput()">
+  </div>
+
+    <div class="sections-container text-center">
+
+      <div class="section animated fadeInLeft" id="left-section" style="animation-delay: 1.2s;">
+        <div class="card border-primary mb-3" style="width: 100%;height: 100%">
+          <div class="card-body text-left">
+            <center> <img src="https://img.techpowerup.org/200804/me.png" width="120"> </center>
+            <h4 class="card-title">Jarrar TtCash</h4>
+            <div class="card-text">
+              <div class="circle" style="background: lime;"></div> / The digit exists and it's in the correct place. Go ahead!
+              <br><div class="circle" style="background: orange;"></div> / The digit exists but you have to change its position.
+              <br><div class="circle" style="background: gainsboro;"></div> / The digit doesn't exist, look for another one.
+
+              <pre>→ Easy mode uses only unique digits ! Too easy for ya boi.</pre>
+             
+         
+
+              <hr>
+
+              <div style="display: inline-block;width: 100%;">
+                <div class="custom-control custom-switch" style="float: left;margin-top: 13px;">
+                  <input type="checkbox" class="custom-control-input" id="difficultySwitch" checked="true">
+                  <label class="custom-control-label" for="difficultySwitch">Realistic</label>
+                </div>
+
+  
+                <button class="btn btn-primary" style="float:right" onclick="Start()">Let's go boi !</button>
+          
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section animated fadeInRight" id="right-section" style="animation-delay: 1.2s;">
+        <div class="row">
+          <span id="r1sp1">&nbsp;</span>
+          <span id="r1sp2">&nbsp;</span>
+          <span id="r1sp3">&nbsp;</span>
+          <span id="r1sp4">&nbsp;</span>
+          <span id="r1sp5">&nbsp;</span>
+          <span id="r1sp6">&nbsp;</span>
+          <span id="r1sp7">&nbsp;</span>
+          <span class="tt" id="r1sp8">TT</span>
+        </div>
+        <div class="row">
+          <span id="r2sp1">&nbsp;</span>
+          <span id="r2sp2">&nbsp;</span>
+          <span id="r2sp3">&nbsp;</span>
+          <span id="r2sp4">&nbsp;</span>
+          <span id="r2sp5">&nbsp;</span>
+          <span id="r2sp6">&nbsp;</span>
+          <span id="r2sp7">&nbsp;</span>
+          <span class="tt" id="r2sp8">TT</span>
+        </div>
+        <div class="row">
+          <span id="r3sp1">&nbsp;</span>
+          <span id="r3sp2">&nbsp;</span>
+          <span id="r3sp3">&nbsp;</span>
+          <span id="r3sp4">&nbsp;</span>
+          <span id="r3sp5">&nbsp;</span>
+          <span id="r3sp6">&nbsp;</span>
+          <span id="r3sp7">&nbsp;</span>
+          <span class="tt" id="r3sp8">TT</span>
+        </div>
+        <div class="row">
+          <span id="r4sp1">&nbsp;</span>
+          <span id="r4sp2">&nbsp;</span>
+          <span id="r4sp3">&nbsp;</span>
+          <span id="r4sp4">&nbsp;</span>
+          <span id="r4sp5">&nbsp;</span>
+          <span id="r4sp6">&nbsp;</span>
+          <span id="r4sp7">&nbsp;</span>
+          <span class="tt" id="r4sp8">TT</span>
+        </div>
+        <div class="row">
+          <span id="r5sp1">&nbsp;</span>
+          <span id="r5sp2">&nbsp;</span>
+          <span id="r5sp3">&nbsp;</span>
+          <span id="r5sp4">&nbsp;</span>
+          <span id="r5sp5">&nbsp;</span>
+          <span id="r5sp6">&nbsp;</span>
+          <span id="r5sp7">&nbsp;</span>
+          <span class="tt" id="r5sp8">TT</span>
+        </div>
+        <div class="row">
+          <span id="r6sp1">&nbsp;</span>
+          <span id="r6sp2">&nbsp;</span>
+          <span id="r6sp3">&nbsp;</span>
+          <span id="r6sp4">&nbsp;</span>
+          <span id="r6sp5">&nbsp;</span>
+          <span id="r6sp6">&nbsp;</span>
+          <span id="r6sp7">&nbsp;</span>
+          <span class="tt" id="r6sp8">TT</span>
+        </div>
+        <div class="row">
+          <span id="r7sp1">&nbsp;</span>
+          <span id="r7sp2">&nbsp;</span>
+          <span id="r7sp3">&nbsp;</span>
+          <span id="r7sp4">&nbsp;</span>
+          <span id="r7sp5">&nbsp;</span>
+          <span id="r7sp6">&nbsp;</span>
+          <span id="r7sp7">&nbsp;</span>
+          <span class="tt" id="r7sp8">TT</span>
+        </div>
+        <div class="row">
+          <span id="r8sp1">&nbsp;</span>
+          <span id="r8sp2">&nbsp;</span>
+          <span id="r8sp3">&nbsp;</span>
+          <span id="r8sp4">&nbsp;</span>
+          <span id="r8sp5">&nbsp;</span>
+          <span id="r8sp6">&nbsp;</span>
+          <span id="r8sp7">&nbsp;</span>
+          <span class="tt" id="r8sp8">TT</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+<pre id="footer">
+  Developed and designed by <b>Jarrar Mohamed Amine @4o4forbidden </b> # May ( Lockdown ) 2020
+</pre>
+
+</body>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="js/jarrar.js"></script>
+</html>
+
+<!-- 
+/*
+  888888                                           
+    "88b                                           
+     888                                           
+     888  8888b.  888d888 888d888  8888b.  888d888 
+     888     "88b 888P"   888P"       "88b 888P"   
+     888 .d888888 888     888     .d888888 888     
+     88P 888  888 888     888     888  888 888     
+     888 "Y888888 888     888     "Y888888 888     
+   .d88P                                           
+ .d88P"                                            
+888P"                                              
+*/
+ -->
